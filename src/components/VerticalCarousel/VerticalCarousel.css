@@ -1,0 +1,10 @@
+.vc-respin-button {
+  z-index: 999;
+  height: 50px;
+  position: absolute;
+  bottom: 25px;
+}
+
+.vc-spinning {
+  margin-top: -500px;
+}

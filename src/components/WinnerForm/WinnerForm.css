@@ -1,0 +1,78 @@
+.wf-container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 800px;
+}
+.wf-container > h1 {
+  text-align: center;
+  font-size: 4.5rem;
+}
+
+.wf-form {
+  max-width: 400px;
+  min-width: 350px;
+  min-height: 600px;
+}
+
+#wf-file-upload-input {
+  display: none;
+}
+
+#wf-file-upload-container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 2px;
+  border-radius: 1rem;
+  /* border-style: dashed; */
+  /* border-color: #cbd5e1; */
+  background-color: #f8fafc;
+  /* background-color: #bdbdbd; */
+}
+
+.wf-upload-btn {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.wf-upload-btn:hover {
+  text-decoration-line: underline;
+}
+
+#wf-file-upload-container.drag-active {
+  background-color: lightgray;
+}
+
+.wf-drag-info {
+  text-align: center;
+}
+
+.wf-icon-white {
+  color: white;
+}
+
+.wf-file-name {
+  font-family: monospace;
+}
+
+.wf-text-input {
+  color: white;
+  background: transparent;
+  border: none;
+  font-size: 75px;
+  text-align: center;
+}
+
+.wf-text-input:focus-visible {
+  outline-width: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+}
+
