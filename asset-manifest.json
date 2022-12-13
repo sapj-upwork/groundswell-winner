@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/groundswell-winner/static/css/main.ddcdb943.css",
-    "main.js": "/groundswell-winner/static/js/main.6b237403.js",
+    "main.js": "/groundswell-winner/static/js/main.d56671f5.js",
     "static/js/787.62a25727.chunk.js": "/groundswell-winner/static/js/787.62a25727.chunk.js",
     "index.html": "/groundswell-winner/index.html",
     "main.ddcdb943.css.map": "/groundswell-winner/static/css/main.ddcdb943.css.map",
-    "main.6b237403.js.map": "/groundswell-winner/static/js/main.6b237403.js.map",
+    "main.d56671f5.js.map": "/groundswell-winner/static/js/main.d56671f5.js.map",
     "787.62a25727.chunk.js.map": "/groundswell-winner/static/js/787.62a25727.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ddcdb943.css",
-    "static/js/main.6b237403.js"
+    "static/js/main.d56671f5.js"
   ]
 }
