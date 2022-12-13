@@ -70,7 +70,6 @@ class VerticalCarousel extends React.Component {
 
   getLimit = (length) => {
     let limit = Math.floor(Math.random() * length);
-    console.log(limit);
 
     if (limit < 100) {
       limit += 100;
@@ -115,7 +114,7 @@ class VerticalCarousel extends React.Component {
     });
 
     let step = 0;
-    const winner = this.props.slides[limit - 1].content.props.children;
+    // const winner = this.props.slides[limit - 1].content.props.children;
 
     const interval = setInterval(() => {
       if (step > limit) {
@@ -127,7 +126,6 @@ class VerticalCarousel extends React.Component {
           this.setState({
             confettiActive: true,
             showWinMsg: true,
-            winner: winner,
           });
         }, 1000);
         clearInterval(interval);
