@@ -93,7 +93,7 @@ function Slide({
             zIndex: Math.abs(Math.abs(offsetFromMiddle) - 2),
           }}
         >
-          <SlideCardAnimated onClick={() => moveSlide(offsetFromMiddle)}>
+          <SlideCardAnimated>
             {content}
 
             {offsetFromMiddle == 0 && showWinMsg ? (

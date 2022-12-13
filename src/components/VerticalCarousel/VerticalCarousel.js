@@ -114,7 +114,6 @@ class VerticalCarousel extends React.Component {
     });
 
     let step = 0;
-    // const winner = this.props.slides[limit - 1].content.props.children;
 
     const interval = setInterval(() => {
       if (step > limit) {
